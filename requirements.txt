@@ -1,4 +1,4 @@
 chainlit
 langchain
 langchain-google-genai
-langchain
+langchain-community
