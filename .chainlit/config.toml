@@ -74,7 +74,7 @@ custom_css = "/public/test.css"
 [UI.theme]
     #font_family = "Inter, sans-serif"
 [UI.theme.light]
-    background = "#7fb5d4"
+    background = "#0E4C92"
     paper = "#FAFAFA"
 
     [UI.theme.light.primary]
