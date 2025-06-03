@@ -57,7 +57,7 @@ code_assistant_prompt_template = PromptTemplate(
 
 @cl.on_chat_start
 def quey_llm():
-    llm = GoogleGenerativeAI(model="gemini-pro", temperature=0.2, google_api_key=GOOGLE_API_KEY)
+    llm = GoogleGenerativeAI(model="gemini-1.5-flash-002", temperature=0.2, google_api_key=GOOGLE_API_KEY)
 
 
     conversation_memory = ConversationBufferMemory(memory_key="chat_history",
