@@ -13,8 +13,7 @@ session_timeout = 3600
 cache = false
 
 # Authorized origins 
-allow_origins = ["https://your-production-frontend.com", "https://buzz-main-d3g0.onrender.com", "http://localhost:5173", "http://127.0.0.1:5173", "*"]
-
+allow_origins = ["https://custom-ide-nine.vercel.app", "https://buzz-main-d3g0.onrender.com", "http://localhost:5173", "http://127.0.0.1:5173"]
 
 # Follow symlink for asset mount (see https://github.com/Chainlit/chainlit/issues/317)
 # follow_symlink = false
